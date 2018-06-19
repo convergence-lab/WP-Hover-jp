@@ -1,3 +1,12 @@
+これは Wordpress プラグイン WP Glossary Hover(https://ja.wordpress.org/plugins/wp-glossary-hover/) のフォークです。
+日本語のホバー辞書に対応しています。
+
+ホバー対象のタグの検索には phpflashtext ( https://github.com/shdev/phpflashtext )をつかっています。
+
+私はphpを書いたのも初めてですし、wordpressとかphpのお作法がわからないので、github においておきます。
+
+original Readme follows
+
 === WP Glossary Hover ===
 Contributors: chorton2227
 Tags: glossary, hover, definition
