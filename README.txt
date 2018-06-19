@@ -1,6 +1,10 @@
 これは Wordpress プラグイン WP Glossary Hover(https://ja.wordpress.org/plugins/wp-glossary-hover/) のフォークです。
 日本語のホバー辞書に対応しています。
 
+- 辞書はカスタマイズできます。
+- 記事を書くと自動でツールチップを反映
+- 余分な空白文字は不要
+
 ホバー対象のタグの検索には phpflashtext ( https://github.com/shdev/phpflashtext )をつかっています。
 
 私はphpを書いたのも初めてですし、wordpressとかphpのお作法がわからないので、github においておきます。
