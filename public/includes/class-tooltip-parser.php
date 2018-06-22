@@ -86,7 +86,7 @@ class WPGH_Tooltip_Parser
      * @since    1.2.0
      * @var      string
      */
-    protected $tooltip_link_html = '<a class="wpgh-tooltip" href="%s" title="%s">%s</a>';
+    protected $tooltip_link_html = '<a class="wpgh-tooltip" href="glossary/%s" title="%s">%s</a>';
 
     /**
      * The encoding used when converting characters.
@@ -358,7 +358,8 @@ class WPGH_Tooltip_Parser
         $definition = $this->clean_definition($definition);
 
         if ($link) {
-            $permalink = get_permalink($id);
+            // $permalink = get_permalink($id);
+            $permalink = get_post_type_archive_link( get_query_var('post_type') );
             return sprintf($this->tooltip_link_html, $permalink, $definition, $term);
         }
 
